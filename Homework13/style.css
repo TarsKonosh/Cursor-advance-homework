@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(13, 115, 99, 0.284);
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  button{
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 10px;
+  }
+  #randomId{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #reset{
+    border: none;
+    color: gray;
+    background: rgb(114, 4, 4);
+  }
+  #genId{
+    border: none;
+    color: gray;
+    background:  rgb(114, 4, 4);
+    margin-top: 3%;
+  }
+  #up{
+    border: none;
+    color: gray;
+    background:  rgb(114, 4, 4);
+  }
+  #down{
+    border: none;
+    color: gray;
+    background: rgb(114, 4, 4);
+  }
